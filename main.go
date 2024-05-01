@@ -25,7 +25,6 @@ func main() {
 
 func birthday() time.Time {
 	var birthdayStr string
-
 	for {
 		fmt.Print("Enter your birthday in the format dd.mm.yyyy: ")
 		_, err := fmt.Scan(&birthdayStr)
